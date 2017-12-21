@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		0790E8A6863302059C62A7CF /* Pods_iChat4U.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AB2FA7AEB8B5CDD2B60E99 /* Pods_iChat4U.framework */; };
 		082F15C51FEC167F00EF13FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F15C41FEC167F00EF13FD /* AppDelegate.swift */; };
-		082F15C71FEC167F00EF13FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F15C61FEC167F00EF13FD /* ViewController.swift */; };
 		082F15CA1FEC167F00EF13FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082F15C81FEC167F00EF13FD /* Main.storyboard */; };
 		082F15CC1FEC167F00EF13FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082F15CB1FEC167F00EF13FD /* Assets.xcassets */; };
 		082F15CF1FEC167F00EF13FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082F15CD1FEC167F00EF13FD /* LaunchScreen.storyboard */; };
 		082F15DA1FEC167F00EF13FD /* iChat4UTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F15D91FEC167F00EF13FD /* iChat4UTests.swift */; };
 		082F15E51FEC167F00EF13FD /* iChat4UUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F15E41FEC167F00EF13FD /* iChat4UUITests.swift */; };
 		082F15F51FEC2B6F00EF13FD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 082F15F41FEC2B6F00EF13FD /* SWRevealViewController.m */; };
+		082F15FB1FEC35D300EF13FD /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F15FA1FEC35D300EF13FD /* ChatVC.swift */; };
+		082F15FD1FEC35F500EF13FD /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F15FC1FEC35F500EF13FD /* ChannelVC.swift */; };
 		26002D57C029F3DFCD1214BD /* Pods_iChat4UTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EE00A424581471B82FA62F /* Pods_iChat4UTests.framework */; };
 		CF807AE786D6DF993C1760B0 /* Pods_iChat4UUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC191CA6C3A0A67DEC178E4B /* Pods_iChat4UUITests.framework */; };
 /* End PBXBuildFile section */
@@ -41,7 +42,6 @@
 		01EE00A424581471B82FA62F /* Pods_iChat4UTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iChat4UTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		082F15C11FEC167F00EF13FD /* iChat4U.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat4U.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		082F15C41FEC167F00EF13FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		082F15C61FEC167F00EF13FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		082F15C91FEC167F00EF13FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		082F15CB1FEC167F00EF13FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		082F15CE1FEC167F00EF13FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +55,8 @@
 		082F15F21FEC2B6E00EF13FD /* iChat4U-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iChat4U-Bridging-Header.h"; sourceTree = "<group>"; };
 		082F15F31FEC2B6F00EF13FD /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		082F15F41FEC2B6F00EF13FD /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		082F15FA1FEC35D300EF13FD /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		082F15FC1FEC35F500EF13FD /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		0EBB0FE5DEBB1FEDAAEC9B89 /* Pods-iChat4U.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat4U.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iChat4U/Pods-iChat4U.debug.xcconfig"; sourceTree = "<group>"; };
 		169BA00BDB0DE8B85D3A544E /* Pods-iChat4UUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat4UUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iChat4UUITests/Pods-iChat4UUITests.release.xcconfig"; sourceTree = "<group>"; };
 		413A8107F9684061ED5D6038 /* Pods-iChat4UTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat4UTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iChat4UTests/Pods-iChat4UTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,9 +120,11 @@
 		082F15C31FEC167F00EF13FD /* iChat4U */ = {
 			isa = PBXGroup;
 			children = (
+				082F15F91FEC308900EF13FD /* Controller */,
+				082F15F81FEC308000EF13FD /* View */,
+				082F15F71FEC307500EF13FD /* Model */,
 				082F15F61FEC2BB200EF13FD /* SupportingFile */,
 				082F15C41FEC167F00EF13FD /* AppDelegate.swift */,
-				082F15C61FEC167F00EF13FD /* ViewController.swift */,
 				082F15C81FEC167F00EF13FD /* Main.storyboard */,
 				082F15CB1FEC167F00EF13FD /* Assets.xcassets */,
 				082F15CD1FEC167F00EF13FD /* LaunchScreen.storyboard */,
@@ -155,6 +159,29 @@
 				082F15F41FEC2B6F00EF13FD /* SWRevealViewController.m */,
 			);
 			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		082F15F71FEC307500EF13FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		082F15F81FEC308000EF13FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		082F15F91FEC308900EF13FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				082F15FA1FEC35D300EF13FD /* ChatVC.swift */,
+				082F15FC1FEC35F500EF13FD /* ChannelVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		1D90046958552E2BDB4EC02B /* Frameworks */ = {
@@ -462,7 +489,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				082F15C71FEC167F00EF13FD /* ViewController.swift in Sources */,
+				082F15FD1FEC35F500EF13FD /* ChannelVC.swift in Sources */,
+				082F15FB1FEC35D300EF13FD /* ChatVC.swift in Sources */,
 				082F15C51FEC167F00EF13FD /* AppDelegate.swift in Sources */,
 				082F15F51FEC2B6F00EF13FD /* SWRevealViewController.m in Sources */,
 			);
@@ -635,6 +663,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HV597UH4PF;
 				INFOPLIST_FILE = iChat4U/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Anusys.iChat4U;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -654,6 +683,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HV597UH4PF;
 				INFOPLIST_FILE = iChat4U/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Anusys.iChat4U;
 				PRODUCT_NAME = "$(TARGET_NAME)";
