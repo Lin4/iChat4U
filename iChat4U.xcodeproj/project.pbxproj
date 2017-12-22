@@ -19,6 +19,9 @@
 		082F15FD1FEC35F500EF13FD /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F15FC1FEC35F500EF13FD /* ChannelVC.swift */; };
 		08EF101A1FECC5EC00466938 /* GredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF10191FECC5EC00466938 /* GredientView.swift */; };
 		08EF101C1FECD09900466938 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF101B1FECD09900466938 /* BorderButton.swift */; };
+		08EF101F1FECD91700466938 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF101E1FECD91700466938 /* Constants.swift */; };
+		08EF10211FECDE2C00466938 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF10201FECDE2C00466938 /* CurrencyTxtField.swift */; };
+		08EF10231FECDE7400466938 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EF10221FECDE7400466938 /* LoginVC.swift */; };
 		26002D57C029F3DFCD1214BD /* Pods_iChat4UTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EE00A424581471B82FA62F /* Pods_iChat4UTests.framework */; };
 		CF807AE786D6DF993C1760B0 /* Pods_iChat4UUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC191CA6C3A0A67DEC178E4B /* Pods_iChat4UUITests.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +64,9 @@
 		082F15FC1FEC35F500EF13FD /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		08EF10191FECC5EC00466938 /* GredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GredientView.swift; sourceTree = "<group>"; };
 		08EF101B1FECD09900466938 /* BorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		08EF101E1FECD91700466938 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		08EF10201FECDE2C00466938 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
+		08EF10221FECDE7400466938 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		0EBB0FE5DEBB1FEDAAEC9B89 /* Pods-iChat4U.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat4U.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iChat4U/Pods-iChat4U.debug.xcconfig"; sourceTree = "<group>"; };
 		169BA00BDB0DE8B85D3A544E /* Pods-iChat4UUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat4UUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iChat4UUITests/Pods-iChat4UUITests.release.xcconfig"; sourceTree = "<group>"; };
 		413A8107F9684061ED5D6038 /* Pods-iChat4UTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iChat4UTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iChat4UTests/Pods-iChat4UTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +130,7 @@
 		082F15C31FEC167F00EF13FD /* iChat4U */ = {
 			isa = PBXGroup;
 			children = (
+				08EF101D1FECD8F300466938 /* Utilities */,
 				082F15F91FEC308900EF13FD /* Controller */,
 				082F15F81FEC308000EF13FD /* View */,
 				082F15F71FEC307500EF13FD /* Model */,
@@ -177,6 +184,7 @@
 			children = (
 				08EF101B1FECD09900466938 /* BorderButton.swift */,
 				08EF10191FECC5EC00466938 /* GredientView.swift */,
+				08EF10201FECDE2C00466938 /* CurrencyTxtField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,8 +194,17 @@
 			children = (
 				082F15FA1FEC35D300EF13FD /* ChatVC.swift */,
 				082F15FC1FEC35F500EF13FD /* ChannelVC.swift */,
+				08EF10221FECDE7400466938 /* LoginVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		08EF101D1FECD8F300466938 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				08EF101E1FECD91700466938 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		1D90046958552E2BDB4EC02B /* Frameworks */ = {
@@ -495,10 +512,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08EF10211FECDE2C00466938 /* CurrencyTxtField.swift in Sources */,
 				082F15FD1FEC35F500EF13FD /* ChannelVC.swift in Sources */,
 				082F15FB1FEC35D300EF13FD /* ChatVC.swift in Sources */,
 				082F15C51FEC167F00EF13FD /* AppDelegate.swift in Sources */,
+				08EF10231FECDE7400466938 /* LoginVC.swift in Sources */,
 				08EF101A1FECC5EC00466938 /* GredientView.swift in Sources */,
+				08EF101F1FECD91700466938 /* Constants.swift in Sources */,
 				082F15F51FEC2B6F00EF13FD /* SWRevealViewController.m in Sources */,
 				08EF101C1FECD09900466938 /* BorderButton.swift in Sources */,
 			);
