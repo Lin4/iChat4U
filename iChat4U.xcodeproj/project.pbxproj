@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0790E8A6863302059C62A7CF /* Pods_iChat4U.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AB2FA7AEB8B5CDD2B60E99 /* Pods_iChat4U.framework */; };
+		082B88E61FEDD03E000045F2 /* AuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082B88E51FEDD03E000045F2 /* AuthServices.swift */; };
 		082F15C51FEC167F00EF13FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082F15C41FEC167F00EF13FD /* AppDelegate.swift */; };
 		082F15CA1FEC167F00EF13FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082F15C81FEC167F00EF13FD /* Main.storyboard */; };
 		082F15CC1FEC167F00EF13FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082F15CB1FEC167F00EF13FD /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		01EE00A424581471B82FA62F /* Pods_iChat4UTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iChat4UTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		082B88E51FEDD03E000045F2 /* AuthServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
 		082F15C11FEC167F00EF13FD /* iChat4U.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iChat4U.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		082F15C41FEC167F00EF13FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		082F15C91FEC167F00EF13FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,6 +109,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		082B88E41FEDD01B000045F2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				082B88E51FEDD03E000045F2 /* AuthServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		082F15B81FEC167F00EF13FD = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +142,7 @@
 		082F15C31FEC167F00EF13FD /* iChat4U */ = {
 			isa = PBXGroup;
 			children = (
+				082B88E41FEDD01B000045F2 /* Services */,
 				08EF101D1FECD8F300466938 /* Utilities */,
 				082F15F91FEC308900EF13FD /* Controller */,
 				082F15F81FEC308000EF13FD /* View */,
@@ -525,6 +536,7 @@
 				082F15F51FEC2B6F00EF13FD /* SWRevealViewController.m in Sources */,
 				08EF10251FED521B00466938 /* CreateAccountVC.swift in Sources */,
 				08EF101C1FECD09900466938 /* BorderButton.swift in Sources */,
+				082B88E61FEDD03E000045F2 /* AuthServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
