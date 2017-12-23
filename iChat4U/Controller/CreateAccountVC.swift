@@ -19,9 +19,22 @@ class CreateAccountVC: UIViewController {
 
     }
     
-    @IBOutlet weak var generateBackgroundColorTapped: UIButton!
     @IBAction func chooseAvatarTapped(_ sender: Any) {
     }
+    
+    
     @IBAction func createAccountTapped(_ sender: Any) {
+        guard let email = emailTxt.text, email != "" else {return}
+        guard let pass = passwordTxt.text,  pass != "" else { return}
+        
+        AuthServices.instance.registerUser(email: email, password: pass ) {
+            (success) in
+            if success {
+              print("Registered user!")
+            } else {
+               print("User Registration Failed!")
+                
+            }
+        }
     }
 }

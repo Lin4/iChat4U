@@ -481,7 +481,6 @@
                     <connections>
                         <outlet property="avatarImg" destination="z7W-DT-DpB" id="8Pz-2G-BEe"/>
                         <outlet property="emailTxt" destination="vHj-l4-zwB" id="qru-hT-s1Z"/>
-                        <outlet property="generateBackgroundColorTapped" destination="1Vu-wW-KW2" id="TAq-t4-aER"/>
                         <outlet property="passwordTxt" destination="gcx-a5-B28" id="2PZ-q1-GA7"/>
                         <outlet property="userNameTxt" destination="duy-a9-fH2" id="wIs-cH-mOo"/>
                     </connections>
