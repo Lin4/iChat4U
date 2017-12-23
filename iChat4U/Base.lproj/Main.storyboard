@@ -417,6 +417,9 @@
                                 <state key="normal" title="Choose avatar">
                                     <color key="titleColor" red="0.91040677329999997" green="0.64494293810000003" blue="0.23862974880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="chooseAvatarTapped:" destination="IS2-45-IdD" eventType="touchUpInside" id="sEH-ty-YCd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Vu-wW-KW2">
                                 <rect key="frame" x="60" y="426.5" width="200" height="30"/>
@@ -442,6 +445,9 @@
                                 <state key="normal" title="Create Account">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="createAccountTapped:" destination="IS2-45-IdD" eventType="touchUpInside" id="YC1-Ud-VR8"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="z7W-DT-DpB">
                                 <rect key="frame" x="111" y="295" width="99" height="98"/>
@@ -472,6 +478,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="uGZ-7H-JpQ"/>
                     </view>
+                    <connections>
+                        <outlet property="avatarImg" destination="z7W-DT-DpB" id="8Pz-2G-BEe"/>
+                        <outlet property="emailTxt" destination="vHj-l4-zwB" id="qru-hT-s1Z"/>
+                        <outlet property="generateBackgroundColorTapped" destination="1Vu-wW-KW2" id="TAq-t4-aER"/>
+                        <outlet property="passwordTxt" destination="gcx-a5-B28" id="2PZ-q1-GA7"/>
+                        <outlet property="userNameTxt" destination="duy-a9-fH2" id="wIs-cH-mOo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n9r-qi-L11" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="7bA-Yf-kcb" userLabel="Exit" sceneMemberID="exit"/>
