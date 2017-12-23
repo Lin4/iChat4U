@@ -18,4 +18,6 @@ let TO_CREATE_ACCOUNT = "toCreateAccount"
 let TOKEN_KEY = "token"
 let LOGGED_IN_KEY = "loggedIn"
 let USER_EMAIL = "userEmail"
-
+// URL Constants
+let BASE_URL = "https://ichat4u.herokuapp.com/v1/"
+let URL_REGISTER = "\(BASE_URL)account/register"
