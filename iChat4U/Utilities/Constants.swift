@@ -21,3 +21,10 @@ let USER_EMAIL = "userEmail"
 // URL Constants
 let BASE_URL = "https://ichat4u.herokuapp.com/v1/"
 let URL_REGISTER = "\(BASE_URL)account/register"
+let URL_LOGIN = "\(BASE_URL)account/login"
+
+
+let HEADERS = [
+    "Content-Type": "application/jason; charset=utf-8"
+]
+
